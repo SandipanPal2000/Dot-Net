@@ -1,0 +1,15 @@
+D:\Dot Net\Projects\BookDatabase\BookDatabase\bin\Debug\net6.0\BookDatabase.exe
+D:\Dot Net\Projects\BookDatabase\BookDatabase\bin\Debug\net6.0\BookDatabase.deps.json
+D:\Dot Net\Projects\BookDatabase\BookDatabase\bin\Debug\net6.0\BookDatabase.runtimeconfig.json
+D:\Dot Net\Projects\BookDatabase\BookDatabase\bin\Debug\net6.0\BookDatabase.dll
+D:\Dot Net\Projects\BookDatabase\BookDatabase\bin\Debug\net6.0\BookDatabase.pdb
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.csproj.AssemblyReference.cache
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.AssemblyInfoInputs.cache
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.AssemblyInfo.cs
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.csproj.CoreCompileInputs.cache
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.dll
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\refint\BookDatabase.dll
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.pdb
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\BookDatabase.genruntimeconfig.cache
+D:\Dot Net\Projects\BookDatabase\BookDatabase\obj\Debug\net6.0\ref\BookDatabase.dll

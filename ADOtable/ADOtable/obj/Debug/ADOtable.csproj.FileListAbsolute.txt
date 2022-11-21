@@ -1,0 +1,8 @@
+D:\Dot Net\Projects\ADOtable\ADOtable\bin\Debug\ADOtable.exe.config
+D:\Dot Net\Projects\ADOtable\ADOtable\bin\Debug\ADOtable.exe
+D:\Dot Net\Projects\ADOtable\ADOtable\bin\Debug\ADOtable.pdb
+D:\Dot Net\Projects\ADOtable\ADOtable\obj\Debug\ADOtable.csproj.AssemblyReference.cache
+D:\Dot Net\Projects\ADOtable\ADOtable\obj\Debug\ADOtable.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Projects\ADOtable\ADOtable\obj\Debug\ADOtable.csproj.CoreCompileInputs.cache
+D:\Dot Net\Projects\ADOtable\ADOtable\obj\Debug\ADOtable.exe
+D:\Dot Net\Projects\ADOtable\ADOtable\obj\Debug\ADOtable.pdb
