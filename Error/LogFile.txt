@@ -1,0 +1,4 @@
+=============Error Logging ===========
+===========Start============= 08-01-2023 06:06:40 PM
+Error Message: Email not found! Email = user@example.com is not present in Database
+===========End============= 08-01-2023 06:06:40 PM

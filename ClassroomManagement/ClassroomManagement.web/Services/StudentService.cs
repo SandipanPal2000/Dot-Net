@@ -28,6 +28,7 @@ namespace ClassroomManagement.web.Services
             var result = _dbObject.StudentTB.FirstOrDefault(s => s.StudentId== Id);
             if (result == null)
             {
+                new Error("Student not found");
                 return "Studnet not found";
             }
             else
@@ -46,6 +47,7 @@ namespace ClassroomManagement.web.Services
             {
                 response.Success = false;
                 response.Message = "The StudnetID = " + Id + " can not be found";
+                new Error(response.Message);
             }
             else
             {
@@ -63,6 +65,7 @@ namespace ClassroomManagement.web.Services
             {
                 response.Success = false;
                 response.Message = "No data found! Table is empty";
+                new Error(response.Message);
             }
             else
             {
@@ -77,6 +80,7 @@ namespace ClassroomManagement.web.Services
             var result = _dbObject.StudentTB.First(s => s.StudentId==Id);
             if (result == null)
             {
+                new Error("Student not found");
                 return "Student not found";
             }
             else
@@ -92,6 +96,7 @@ namespace ClassroomManagement.web.Services
             var result = _dbObject.StudentTB.First(s => s.StudentId == _student.StudentId);
             if (result == null)
             {
+                new Error("Student not found");
                 return "Studnet not found";
             }
             else

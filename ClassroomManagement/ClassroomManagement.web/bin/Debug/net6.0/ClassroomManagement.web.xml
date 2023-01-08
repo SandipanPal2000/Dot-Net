@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassroomManagement.web</name>
+    </assembly>
+    <members>
+        <member name="M:ClassroomManagement.web.Controllers.AuthController.Register(ClassroomManagement.web.DTOs.Auth.RegisterDTO)">
+            <summary>
+            Tab  Register
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.AuthController.Login(ClassroomManagement.web.DTOs.Auth.LoginDTO)">
+            <summary>
+            Tab to login into the database
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.PostStudent(ClassroomManagement.web.DTOs.Student.CreateStudentDTO)">
+            <summary>
+            Tab to save student details into the database
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.GetAllStudents">
+            <summary>
+            Tab to get details of all students
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.GetSingleStudent(System.Int32)">
+            <summary>
+            Tab to get details of single student
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.PutStudent(ClassroomManagement.web.DTOs.Student.UpdateStudentDTO)">
+            <summary>
+            Tab to edit details of student
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.PutStudnetScore(System.Int32,System.Int32)">
+            <summary>
+            Tab to edit score of student
+            </summary>
+        </member>
+        <member name="M:ClassroomManagement.web.Controllers.StudentController.DeleteStudent(System.Int32)">
+            <summary>
+            Tab to delete details of student
+            </summary>
+        </member>
+    </members>
+</doc>

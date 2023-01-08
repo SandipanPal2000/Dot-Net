@@ -72,3 +72,5 @@ D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\obj\Debug\net6.0
 D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\obj\Debug\net6.0\ClassroomManagement.web.pdb
 D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\obj\Debug\net6.0\ClassroomManagement.web.genruntimeconfig.cache
 D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\obj\Debug\net6.0\ref\ClassroomManagement.web.dll
+D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\bin\Debug\net6.0\ClassroomManagement.web.xml
+D:\Dot Net\Projects\ClassroomManagement\ClassroomManagement.web\obj\Debug\net6.0\ClassroomManagement.web.xml

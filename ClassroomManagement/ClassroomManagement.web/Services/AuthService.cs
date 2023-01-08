@@ -4,7 +4,6 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
-using ClassroomManagement.web.Infrstructure.Error;
 using ClassroomManagement.web.Models;
 
 namespace ClassroomManagement.web.Services
@@ -76,6 +75,7 @@ namespace ClassroomManagement.web.Services
             {
                 return true;
             }
+            new Error("User already exists");
             return false;
         }
 

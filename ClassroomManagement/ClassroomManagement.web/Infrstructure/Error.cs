@@ -1,4 +1,4 @@
-﻿namespace ClassroomManagement.web.Infrstructure.Error
+﻿namespace ClassroomManagement.web.Infrstructure
 {
     public class Error
     {
@@ -14,7 +14,7 @@
         }
         public static void ErrorLogging(Exception ex)
         {
-            string strPath = @"D:\Dot Net\Projects\ClassroomManagement\Error\LogFile.txt";
+            string strPath = @"D:\Dot Net\Projects\Error\LogFile.txt";
             if (!File.Exists(strPath))
             {
                 File.Create(strPath).Dispose();
@@ -31,7 +31,7 @@
         }
         public static void ErrorLogging(String ex)
         {
-            string strPath = @"D:\Dot Net\Projects\ClassroomManagement\Error\LogFile.txt";
+            string strPath = @"D:\Dot Net\Projects\Error\LogFile.txt";
             if (!File.Exists(strPath))
             {
                 File.Create(strPath).Dispose();

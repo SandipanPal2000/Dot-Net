@@ -1,5 +1,4 @@
-﻿using ClassroomManagement.web.Infrstructure.Error;
-using ClassroomManagement.web.Infrstructure;
+﻿using ClassroomManagement.web.Infrstructure;
 using ClassroomManagement.web.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +19,7 @@ namespace ClassroomManagement.web.Controllers
             _authService = authService;
         }
         /// <summary>
-        /// Method For Register
+        /// Tab  Register
         /// </summary>
 
         [HttpPost("Register")]
@@ -43,7 +42,7 @@ namespace ClassroomManagement.web.Controllers
             return Ok(response);
         }
         /// <summary>
-        /// Method To Login into System.This will add the JWT token at successfull attempt to log In
+        /// Tab to login into the database
         /// </summary>
 
         [HttpPost("Login")]

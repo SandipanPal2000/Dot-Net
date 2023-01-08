@@ -5,8 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
 // Add services to the container.
 //Add AuthService & StudentService
@@ -31,7 +34,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 
     c.OperationFilter<SecurityRequirementsOperationFilter>();
-    //c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+    c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
 });
 //Add JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
