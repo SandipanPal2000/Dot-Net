@@ -8,6 +8,9 @@ using ClassroomManagement.web.Models;
 
 namespace ClassroomManagement.web.Controllers
 {
+    /// <summary>
+    /// Controller for authentication
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
@@ -19,7 +22,7 @@ namespace ClassroomManagement.web.Controllers
             _authService = authService;
         }
         /// <summary>
-        /// Tab  Register
+        /// Tab to register into the database
         /// </summary>
 
         [HttpPost("Register")]

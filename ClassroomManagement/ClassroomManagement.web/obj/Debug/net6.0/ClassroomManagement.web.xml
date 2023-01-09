@@ -4,14 +4,24 @@
         <name>ClassroomManagement.web</name>
     </assembly>
     <members>
+        <member name="T:ClassroomManagement.web.Controllers.AuthController">
+            <summary>
+            Controller for authentication
+            </summary>
+        </member>
         <member name="M:ClassroomManagement.web.Controllers.AuthController.Register(ClassroomManagement.web.DTOs.Auth.RegisterDTO)">
             <summary>
-            Tab  Register
+            Tab to register into the database
             </summary>
         </member>
         <member name="M:ClassroomManagement.web.Controllers.AuthController.Login(ClassroomManagement.web.DTOs.Auth.LoginDTO)">
             <summary>
             Tab to login into the database
+            </summary>
+        </member>
+        <member name="T:ClassroomManagement.web.Controllers.StudentController">
+            <summary>
+            Controller to create, get, edit and delete data in/from the database
             </summary>
         </member>
         <member name="M:ClassroomManagement.web.Controllers.StudentController.PostStudent(ClassroomManagement.web.DTOs.Student.CreateStudentDTO)">

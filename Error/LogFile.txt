@@ -2,3 +2,31 @@
 ===========Start============= 08-01-2023 06:06:40 PM
 Error Message: Email not found! Email = user@example.com is not present in Database
 ===========End============= 08-01-2023 06:06:40 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:05:12 PM
+Error Message: Wrong Password Email = admin@gmail.com present in Database. But Password did not match
+===========End============= 09-01-2023 02:05:12 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:15:18 PM
+Error Message: Email not found! Email = sayan@gmail.com is not present in Database
+===========End============= 09-01-2023 02:15:18 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:15:26 PM
+Error Message: Email not found! Email = sayan@gmail.com is not present in Database
+===========End============= 09-01-2023 02:15:26 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:15:56 PM
+Error Message: Email not found! Email = sayan@gmail.com is not present in Database
+===========End============= 09-01-2023 02:15:56 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:16:01 PM
+Error Message: Email not found! Email = sayan@gmail.com is not present in Database
+===========End============= 09-01-2023 02:16:01 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:22:50 PM
+Error Message: User already exists
+===========End============= 09-01-2023 02:22:50 PM
+=============Error Logging ===========
+===========Start============= 09-01-2023 02:30:24 PM
+Error Message: Wrong Password Email = sayan@gmail.com present in Database. But Password did not match
+===========End============= 09-01-2023 02:30:24 PM

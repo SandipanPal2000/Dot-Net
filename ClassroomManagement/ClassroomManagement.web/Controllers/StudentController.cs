@@ -7,6 +7,9 @@ using ClassroomManagement.web.Infrstructure;
 
 namespace ClassroomManagement.web.Controllers
 {
+    /// <summary>
+    /// Controller to create, get, edit and delete data in/from the database
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
